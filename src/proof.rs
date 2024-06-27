@@ -670,7 +670,7 @@ fn batch_single_circuit() {
         Mutex::new(ProvingKeyCache::new(DEFAULT_CACHE_SIZE, PathBuf::from("./params")));
     }
 
-    const K: u32 = 22;
+    const K: u32 = 21;
 
     let cache_folder = Path::new("output");
     let params_folder = Path::new("params");
